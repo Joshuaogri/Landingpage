@@ -1,0 +1,641 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ html,
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+ .flex-container {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     width: 100vw;
+ }
+
+ .header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     height: 5%;
+     background-color: #1f2937;
+ }
+
+ .headings {
+     display: flex;
+     flex-direction: row;
+     height: 25%;
+     background-color: #1f2937;
+ }
+
+ .imageset {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 25%;
+ }
+
+ .quote {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 20%;
+     background-color: #e5e7eb;
+ }
+
+ .endtext {
+     display: flex;
+     flex-direction: row;
+     height: 20%;
+ }
+
+ .footer {
+     display: flex;
+     flex-direction: row;
+     height: 5%;
+     background-color: #1f2937;
+
+ }
+
+ .logo {
+     color: #f9faf8;
+     width: 15%;
+     font-size: 0.8em;
+     align-self: center;
+ }
+
+ .headerlinks {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     width: 30%;
+     align-self: center;
+     color: #e5e7eb;
+     font-size: 0.7em;
+ }
+
+ .headings {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     width: 100%;
+ }
+
+ .headertext {
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+     margin-top: 1em;
+ }
+
+ h1 {
+     color: #f9faf8;
+     font-weight: bolder;
+     font-size: 1.6em;
+ }
+
+ .tiny {
+     color: #e5efeb;
+     font-size: 0.5em;
+ }
+
+ .signups {
+     background-color: #3882f6;
+     width: 30%;
+     height: 15%;
+     border: 1px solid blue;
+     border-radius: 0.6em;
+ }
+
+ .holder {
+     display: flex;
+     margin-top: 2%;
+     margin-right: 10em;
+     flex-direction: column;
+     width: 15%;
+     height: 70%;
+     background-color: #A9A9A9;
+     color: #e5efeb;
+ }
+
+ .pholder {
+     font-size: 0.6em;
+     text-align: center;
+     margin-top: 25%;
+
+ }
+
+ .imagery {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 10%;
+     margin: 1em;
+ }
+
+ .cam {
+     border: 3px solid blue;
+     ;
+     height: 100%;
+     width: 80%;
+     margin: 1em;
+     border-radius: 0.8em;
+ }
+
+ .fix {
+
+     width: 80%;
+     margin: 0 auto;
+     font-size: 0.7em;
+     text-align: center;
+     color: #1f2937
+ }
+
+ #quotetext {
+     color: #1f2937;
+     height: 70%;
+     width: 30%;
+     margin: 0 auto;
+     font-size: 1em;
+     margin-top: 2em;
+     text-align: justify;
+     font-style: italic;
+     font-weight: 100;
+ }
+
+ #quoty {
+     margin-left: 60%;
+ }
+
+
+
+
+ h2 {
+     margin-top: 50px;
+     margin-left: 10%;
+     width: 300px;
+
+ }
+
+
+ #attri {
+     margin-top: 0.7em;
+     text-align: center;
+     width: 100%;
+     color: #e5e7eb;
+     font-size: 0.8em;
+
+ }
+
+ .call {
+     height: 50%;
+     margin-left: 25%;
+     width: 50%;
+     background-color: #3882f6;
+     margin-top: 2em;
+
+ }
+
+ .special {
+     margin-left: 10%;
+     margin-top: 2%;
+     color: #e5e7eb;
+ }
+
+ #reach {
+     position: relative;
+     bottom: 40%;
+     left: 80%;
+     background-color: #3882f6;
+     border: 1px solid #e5e7eb;
+     border-radius: 0.3em;
+     color: #e5e7eb;
+     width: 10%;
+     height: 35%;
+
+ }
+
+ #act {
+     font-size: 0.7em;
+ }
+
+ #righty {
+     position: relative;
+     bottom: 1em;
+     font-size: 0.5em;
+
+ }
+
+ /*media queries*/
+
+
+ @media only screen and (max-width: 300px) {
+
+     .logo {
+
+         width: 25%;
+         font-size: 0.7em;
+     }
+
+     .headerlinks {
+         width: 70%;
+         font-size: 0.5em;
+     }
+
+     .headertext {
+         width: 42%;
+         margin-top: 2em;
+
+     }
+
+     h1 {
+         font-size: 1.0em;
+
+     }
+
+
+     .tiny {
+         font-size: 0.3em;
+     }
+
+     .signups {
+
+         width: 45%;
+         margin-bottom: 10%;
+
+     }
+
+     .holder {
+         margin-right: 2em;
+         width: 30%;
+         height: 50%;
+         margin-top: 10%;
+
+     }
+
+     .pholder {
+         font-size: 0.6em;
+         text-align: center;
+         margin-top: 25%;
+
+     }
+
+
+     .imagery {
+         width: 40%;
+         height: 80%;
+         margin: 0.2em;
+     }
+
+     .cam {
+         border: 3px solid blue;
+         height: 40%;
+         width: 80%;
+         margin: 0.5em;
+         border-radius: 0.5em;
+     }
+
+     .fix {
+         font-size: 0.4em;
+         width: 100%;
+     }
+
+
+
+     #quotetext {
+         width: 70%;
+         margin-top: 1.0em;
+         font-size: 0.8em;
+     }
+
+     #quoty {
+
+         margin-left: 30%;
+     }
+
+
+     .call {
+         height: 50%;
+         margin-left: 2.5%;
+         width: 95%;
+         background-color: #3882f6;
+         margin-top: 3em;
+
+
+     }
+
+     #act {
+         font-size: 0.5em;
+         margin-top: 3em;
+
+
+     }
+
+     #righty {
+         position: relative;
+         font-size: 0.3em;
+
+
+     }
+
+     #reach {
+
+         width: 20%;
+         left: 75%;
+         font-size: 0.1em;
+         border-radius: 5em;
+
+
+     }
+
+     #attri {
+         font-size: 0.6em;
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 310px) and (max-width:780px) {
+
+     .logo {
+
+         width: 18%;
+         font-size: 0.7em;
+     }
+
+     .headerlinks {
+         width: 50%;
+         font-size: 0.5em;
+     }
+
+     .headertext {
+         width: 35%;
+         margin-top: 2em;
+
+     }
+
+     h1 {
+         font-size: 1.2em;
+
+     }
+
+
+     .tiny {
+         font-size: 0.3em;
+     }
+
+     .signups {
+
+         width: 40%;
+         margin-bottom: 10%;
+
+     }
+
+     .holder {
+         margin-right: 3em;
+         width: 30%;
+         height: 50%;
+         margin-top: 10%;
+
+     }
+
+     .pholder {
+         font-size: 0.6em;
+         text-align: center;
+         margin-top: 25%;
+
+     }
+
+
+     .imagery {
+         width: 20%;
+         height: 90%;
+         margin: 0.2em;
+     }
+
+     .cam {
+         border: 3px solid blue;
+         height: 50%;
+         width: 80%;
+         margin: 0.5em;
+         border-radius: 0.5em;
+     }
+
+     .fix {
+         font-size: 0.5em;
+         width: 100%;
+     }
+
+
+
+     #quotetext {
+         width: 70%;
+         margin-top: 1.4em;
+         font-size: 0.9em;
+     }
+
+     #quoty {
+
+         margin-left: 40%;
+     }
+
+
+     .call {
+         height: 50%;
+         margin-left: 10%;
+         width: 80%;
+         background-color: #3882f6;
+         margin-top: 3em;
+     }
+
+     #act {
+         font-size: 0.7em;
+         margin-top: 2em;
+         margin-right: 7em;
+     }
+
+     #righty {
+         position: relative;
+         font-size: 0.4em;
+         margin-right: 7em;
+
+     }
+
+     #reach {
+
+         width: 20%;
+         left: 75%;
+         bottom: 30%;
+
+     }
+
+     #attri {
+         font-size: 0.6em;
+         margin-top: 3%;
+     }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 800px) and (max-width:1280px) {
+
+     .logo {
+
+         width: 18%;
+         font-size: 0.7em;
+     }
+
+     .headerlinks {
+         width: 50%;
+         font-size: 0.5em;
+     }
+
+     .headertext {
+         width: 35%;
+         margin-top: 2em;
+
+     }
+
+     h1 {
+         font-size: 1.2em;
+
+     }
+
+
+     .tiny {
+         font-size: 0.3em;
+     }
+
+     .signups {
+
+         width: 40%;
+         margin-bottom: 10%;
+
+     }
+
+     .holder {
+         margin-right: 3em;
+         width: 30%;
+         height: 50%;
+         margin-top: 3%;
+
+     }
+
+     .pholder {
+         font-size: 0.6em;
+         text-align: center;
+         margin-top: 10%;
+
+     }
+
+
+     .imagery {
+         width: 20%;
+         height: 90%;
+         margin: 0.2em;
+     }
+
+     .cam {
+         border: 3px solid blue;
+         height: 50%;
+         width: 80%;
+         margin: 0.5em;
+         border-radius: 0.5em;
+     }
+
+     .fix {
+         font-size: 0.5em;
+         width: 60%;
+         margin-right: 5em;
+     }
+
+
+
+     #quotetext {
+         width: 70%;
+         margin-top: 1.4em;
+         font-size: 0.9em;
+     }
+
+     #quoty {
+
+         margin-left: 40%;
+     }
+
+
+     .call {
+         height: 50%;
+         margin-left: 10%;
+         width: 80%;
+         background-color: #3882f6;
+         margin-top: 3em;
+     }
+
+     #act {
+         font-size: 0.7em;
+         margin-top: 2em;
+         margin-right: 7em;
+     }
+
+     #righty {
+         position: relative;
+         font-size: 0.4em;
+         margin-right: 7em;
+
+     }
+
+     #reach {
+
+         width: 20%;
+         left: 75%;
+
+     }
+
+     #attri {
+         font-size: 0.6em;
+         margin-top: 9px;
+     }
+
+
+
+
+
+ }
